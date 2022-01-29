@@ -42,7 +42,7 @@ let userGuess = prompt(
 // Check to see if the guess is inbetween 1 and 10
 if (userGuess < minGuess || userGuess > maxGuess) {
     alert(
-        `${userName}, You gave me a number that was NOT between ${minGuess} and ${maxGuess}.Try Again.`
+        `${userName}, You gave me a number that was NOT between ${minGuess} and ${maxGuess}. Try Again!`
         );
 } else {
     // Evaluate if the guess is equal to, higher than, or lower than the number to guess
